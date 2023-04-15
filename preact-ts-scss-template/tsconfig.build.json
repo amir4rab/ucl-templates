@@ -1,7 +1,6 @@
 {
   "$schema": "https://json.schemastore.org/tsconfig",
-  "display": "Preact Library",
-  "extends": "../tsconfig.json",
+  "display": "Preact Library Build",
   "compilerOptions": {
     "rootDir": "src",
 
@@ -39,6 +38,5 @@
     "skipLibCheck": true
   },
   "include": ["src"],
-  "exclude": ["node_modules", "dist"],
-  "references": [{ "path": "./tsconfig.node.json" }]
+  "exclude": ["node_modules", "dist"]
 }

@@ -9,7 +9,9 @@ export default {
     preserveModules: true,
   },
   plugins: [
-    typescript(),
+    typescript({
+      tsconfig: './tsconfig.build.json'
+    }),
     postcss({
       extract: true,
       autoModules: true,
