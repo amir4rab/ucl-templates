@@ -22,11 +22,11 @@ import { YourComponentName } from 'your-lib-name';
 
 | **Component library** | **support** |
 | --------------------- | ----------- |
-| [React](/react)       | [x]         |
-| [Preact](/preact)     | [x]         |
-| Svelte                | [ ]         |
-| Solid                 | [ ]         |
-| ...                   | [ ]         |
+| [React](/react)       | - [x]       |
+| [Preact](/preact)     | - [x]       |
+| Svelte                | - [ ]       |
+| Solid                 | - [ ]       |
+| ...                   | - [ ]       |
 
 ## Stack
 
