@@ -1,8 +1,8 @@
-import { ComponentType } from 'preact';
+import { ComponentChildren } from 'preact';
 import classes from './button.module.scss';
 
 export interface ButtonProps {
-  children: ComponentType;
+  children: ComponentChildren;
 }
 
 export const Button = ({ children }: ButtonProps) => {
