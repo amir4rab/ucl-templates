@@ -20,13 +20,13 @@ import { YourComponentName } from 'your-lib-name';
 
 ## Supported libraries
 
-| **Component library** | **support** |
-| --------------------- | ----------- |
-| [React](/react)       | - [x]       |
-| [Preact](/preact)     | - [x]       |
-| Svelte                | - [ ]       |
-| Solid                 | - [ ]       |
-| ...                   | - [ ]       |
+| **Component library** | **support**        |
+| --------------------- | ------------------ |
+| [React](/react)       | :white_check_mark: |
+| [Preact](/preact)     | :white_check_mark: |
+| Svelte                | -                  |
+| Solid                 | -                  |
+| ...                   | -                  |
 
 ## Stack
 
