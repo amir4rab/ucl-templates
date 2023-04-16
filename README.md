@@ -18,6 +18,9 @@ Then you can import the component like the following code code snippet.
 import { YourComponentName } from 'your-lib-name';
 ```
 
+> **Warning** <br>
+> Keep in mind the compiled components lacks the "use client" directive, therefor incase of next.js 13 app dir, you will need to wrap them inside a client component[^client-component]
+
 ## Supported libraries
 
 | **Component library** | **support**        |
@@ -49,3 +52,4 @@ This project is licensed under MIT license.
 <br>
 
 [^es_module]: https://hacks.mozilla.org/2018/03/es-modules-a-cartoon-deep-dive
+[^client-component]: https://beta.nextjs.org/docs/rendering/server-and-client-components#third-party-packages
